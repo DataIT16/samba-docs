@@ -1,0 +1,30 @@
+site_name: Ubuntu Server Guide
+site_description: Panduan konfigurasi server Ubuntu (Samba, Apache, PostgreSQL, dsb)
+site_author: Tim IT Development
+repo_url: https://github.com/your-username/samba-docs
+
+theme:
+  name: material
+  language: id
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - toc.integrate
+
+nav:
+  - Beranda: index.md
+  - Panduan Server:
+      - Setup Samba File Sharing: server/samba.md
+
+extra:
+  copyright:
+    name: "© 2025 IT Development Team"
+    text: "Dokumentasi ini dilisensikan di bawah CC BY-SA 4.0"
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
