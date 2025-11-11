@@ -1,7 +1,7 @@
 site_name: Ubuntu Server Guide
 site_description: Panduan konfigurasi server Ubuntu (Samba, Apache, PostgreSQL, dsb)
 site_author: Tim IT Development
-repo_url: https://github.com/your-username/samba-docs
+repo_url: https://github.com/DataIT16/samba-docs
 
 theme:
   name: material
